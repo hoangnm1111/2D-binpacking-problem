@@ -29,8 +29,8 @@ Usage can be found [here](./USAGE.md)
 | 0020.txt 	| 171 	| 2.519827466 	| 171 	| 3.259184459 	|     	|             	| 188 	| 0.000226000 	|
 | 0021.txt 	| 108 	| 8.500796449 	| 108 	| 13.22533175 	|     	|             	| 120 	| 0.000229500 	| -->
 
-![Cost](./analyze/table_compare_only_exact.png)
-![Cost](./analyze/compare_only_exact.png)
+![Cost](./picture/table_compare_only_exact.png)
+![Cost](./picture/compare_only_exact.png)
 
 
 **All:**
@@ -43,8 +43,8 @@ Usage can be found [here](./USAGE.md)
 - CP1 and CP2 give **nearly equivalent** results, but with larger data sets, CP2 gives better results.
 - Heuristic gives really good results, with tests of size <100 x 100 it is still a bit inferior to CP, but for all other tests it is significantly better.
 
-![Cost](./analyze/compare_cost_all.png)
-![Cost](./analyze/zoomed_compare_cost_all.png)
+![Cost](./picture/compare_cost_all.png)
+![Cost](./picture/zoomed_compare_cost_all.png)
 
 **Comparing all run time:**
 
@@ -52,7 +52,7 @@ Usage can be found [here](./USAGE.md)
 - CP reaches the time limit of 300 seconds for all tests with size >= 22 x 22.
 - Heuristic has a very short run time, every test is under 1 second, even for the test size of 10,000 x 10,000.
 
-![Example](./analyze/compare_run_time_all_first_25_test.png)
+![Example](./picture/compare_run_time_all_first_25_test.png)
 
 **Therefore:**
 
