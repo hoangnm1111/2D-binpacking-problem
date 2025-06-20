@@ -60,14 +60,3 @@ Usage can be found [here](./USAGE.md)
 - CP is better than MIP, with better results and faster run time (in some early tests),
 - Heuristic gives the best results in both cost and run time. 
 
-## Visualizer
-We have generated some figures for the results of the CP solver and Heuristic solver. We did not generate any figures for the MIP solver due to its long running time and poor performance, so it is not necessary to include them.     
-  
-You can generate with this command:  
-```
-./script/gen_figure.sh {mode}
-```
-**Note: Currently, the script can only generate figure for the CP and Heuristic solver** 
-  
-![Example](./figure/generated_CP/0011/bin_10.png)  
-
